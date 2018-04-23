@@ -1,0 +1,20 @@
+html {
+  width: 1040px;
+  font-size: 18px;
+}
+
+/*top navigation bar*/
+
+.topnav img {
+  height: 30rem;
+}
+.topnav {
+  height: 2.5rem;
+  width: 960px;
+  color: cadetblue;
+  border: 3px dotted pink;
+  position: absolute;
+}
+
+
+/*top navigation bar*/
