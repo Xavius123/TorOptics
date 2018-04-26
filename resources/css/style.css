@@ -45,15 +45,13 @@ html {
   background-color: white;
   border: 3px dotted pink; /*border guard*/
 }
-/*Area below jumbo tron with 3 flex box items*/
+/*Area below jumbotron with 3 flex box items*/
 .maincontentbox {
   display: flex;
   height: 16rem;
   width: 960px;
-  left: 5%;
-  position: absolute;
   background-color: grey;
-  border: 3px dotted pink; /*border guard*/
+  border: 3px dotted red; /*border guard*/
 }
 .flexbox {
   height: 16rem;
@@ -87,13 +85,26 @@ html {
   border: 3px dotted green; /*border guard*/
 }
 /*Philosophy and Appointments*/
-.whitephilandap {
+.philandapp {
   height: 16rem;
   width: 1080px;
   background-color: grey;
   border: 3px dotted pink;
-
 }
+/*Philosophy*/
+.philosophy { /*White box*/
+  height: 16rem;
+  width: 540px;
+  background-color: white;
+  border: 3px dotted red;
+}
+.philtitle{ /*title*/
+  height: 1.5rem;
+  width: 10rem;
+  color: white;
+  background-color: cadetblue;
+}
+/*Appointments*/
 /*Footer Footer Footer*/
 .footer {
   height: 14.5rem;
