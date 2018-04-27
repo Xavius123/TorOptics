@@ -116,24 +116,41 @@ nav {
 }
 /*Philosophy and Appointments*/
 .philandapp {
+  display: flex;
   height: 16rem;
   width: 1080px;
   background-color: grey;
+  border: 1px dotted blue;
 }
 /*Philosophy*/
 .philosophy { /*White box*/
   height: 16rem;
   width: 540px;
   background-color: white;
-  border: 3px dotted red;
+  border: 1px dotted red;
 }
 .philtitle{ /*title*/
-  height: 1.5rem;
-  width: 35%;
+  height: 2rem;
+  width: 45%;
   color: white;
   background-color: cadetblue;
+  border: 1px dotted blue;
 }
 /*Appointments*/
+
+.appointments { /*White box*/
+  height: 16rem;
+  width: 540px;
+  background-color: white;
+  border: 1px dotted red;
+}
+.apptitle{ /*title*/
+  height: 2rem;
+  width: 45%;
+  color: white;
+  background-color: cadetblue;
+  border: 1px dotted blue;
+}
 /*Footer Footer Footer*/
 .footer {
   display: flex;
@@ -142,7 +159,7 @@ nav {
   height: 14.5rem;
   width: 960px;
   background-color: white;
-  border: 3px dotted gray;
+  border: 1px dotted gray;
 }
 .footericon img {
   margin-left: auto;
