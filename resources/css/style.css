@@ -17,21 +17,28 @@ html {
   left: 5%;
   color: white;
   background-color: cadetblue;
-  border: 3px dotted pink; /*border guard*/
 }
-.topnav img {}
+.topnav img { /*image of classes*/
+  margin-left: 2rem;
+  height: 2rem;
+  width: 100px;
+  border: 3px dotted gray;
+}
 
-.maintitle {
+.maintitle { /*Tortoiseshell Optics*/
+
   font-size: 1rem;
+  border: 3px dotted gray;
 }
 
-.menu nav {
+.menu nav { /*Services Products Contact*/
   display: flex;
   margin-left: 330px;
   list-style-type: none;
 }
 /*jumbotron*/
 .jumbotron {
+  display: flex;
   height: 30rem;
   width: 1080px;
   background-image: url(../images/glasses-bg.png);
@@ -40,37 +47,34 @@ html {
 
 /*white box inside of jumbotron*/
 .jumboitem {
-  display: block;
-  height: 7rem;
-  width: 30rem;
-  margin-left: 150px;
+  height: 100px;
+  width: 400px;
+  margin-top: 250px;
+  margin-left: 650px;
   line-height: 1.2;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
+  text-align: center;
   font-family: Helvetica;
   background-color: white;
-  border: 3px dotted red; /*border guard*/
 }
 /*Area below jumbotron with 3 flex box items*/
 .maincontentbox {
   display: flex;
+  padding-left: 50px;
   height: 16rem;
   width: 960px;
-  background-color: grey;
-  border: 3px dotted red; /*border guard*/
 }
 .flexbox {
   height: 16rem;
   width: 320px;
   background-color: white;
-  border: 3px dotted blue; /*border guard*/
 }
 /*EXAM*/
 .flexbox#exam img { /*first flex box -Exams*/
   margin-top: 3rem;
   margin-left: 5rem;
   background-color: white;
-  border: 3px dotted red; /*border guard*/
 }
 .flexbox#exam p { /*first flex box -Exams*/
   text-align: center;
@@ -83,7 +87,6 @@ html {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  border: 3px dotted yellow; /*border guard*/
 }
 .flexbox#fittings p { /*second flex box -fitting*/
   margin-top: 5.7rem;
@@ -96,7 +99,6 @@ html {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  border: 3px dotted green; /*border guard*/
 }
 .flexbox#delivery p { /*third flex box -delivery*/
   margin-top: 4.0rem;
@@ -107,7 +109,6 @@ html {
   height: 16rem;
   width: 1080px;
   background-color: grey;
-  border: 3px dotted pink;
 }
 /*Philosophy*/
 .philosophy { /*White box*/
@@ -129,4 +130,7 @@ html {
   width: 1080px;
   background-color: white;
   border: 3px dotted gray;
+}
+.footer img {
+
 }
