@@ -4,6 +4,9 @@ html {
   font-family: Helvetica;
   line-height: 1.4;
 }
+nav {
+  width: 300px;
+}
 
 
 /*top navigation bar*/
@@ -29,7 +32,7 @@ html {
 .TOtext { /*Tortoiseshell Optics*/
   display: block;
   height: 4rem;
-  width: 300px;
+  width: 150px;
   margin-left: 2rem;
   font-size: 1rem;
   border: 3px dotted gray;
@@ -39,8 +42,11 @@ html {
   display: flex;
   margin-left: 330px;
   list-style-type: none;
-  border: 3px dotted pink;
   justify-content: space-between;
+}
+
+.menu nav li { /*Services Products Contact*/
+  margin-left: 10px
 }
 /*jumbotron*/
 .jumbotron {
