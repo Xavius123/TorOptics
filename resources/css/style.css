@@ -6,13 +6,6 @@ html {
 }
 
 
-.jumbotron {
-  height: 30rem;
-  width: 1080px;
-  background-image: url(../images/glasses-bg.png);
-  background-size: cover;
-}
-
 /*top navigation bar*/
 .topnav {
   display: flex;
@@ -32,18 +25,31 @@ html {
   font-size: 1rem;
 }
 
+.menu nav {
+  display: flex;
+  margin-left: 330px;
+  list-style-type: none;
+}
+/*jumbotron*/
+.jumbotron {
+  height: 30rem;
+  width: 1080px;
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+}
+
 /*white box inside of jumbotron*/
 .jumboitem {
+  display: block;
   height: 7rem;
   width: 30rem;
-  top: 25%;
-  right: 25%;
+  margin-left: 150px;
   line-height: 1.2;
   font-size: 2rem;
   font-weight: bold;
   font-family: Helvetica;
   background-color: white;
-  border: 3px dotted pink; /*border guard*/
+  border: 3px dotted red; /*border guard*/
 }
 /*Area below jumbotron with 3 flex box items*/
 .maincontentbox {
