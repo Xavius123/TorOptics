@@ -133,6 +133,7 @@ nav {
   height: 2rem;
   width: 45%;
   color: white;
+  text-align: center;
   background-color: cadetblue;
   border: 1px dotted blue;
 }
@@ -148,6 +149,7 @@ nav {
   height: 2rem;
   width: 45%;
   color: white;
+  text-align: center;
   background-color: cadetblue;
   border: 1px dotted blue;
 }
