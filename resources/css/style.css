@@ -67,22 +67,34 @@ html {
   border: 3px dotted red; /*border guard*/
 }
 .flexbox#exam p { /*first flex box -Exams*/
-  margin-left: 3.75rem;
+  text-align: center;
 
 }
 /*FITTING*/
 .flexbox#fittings img { /*second flex box -fitting*/
+  display: block;
   margin-top: 3rem;
-  margin-left: 5rem;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   border: 3px dotted yellow; /*border guard*/
 }
+.flexbox#fittings p { /*second flex box -fitting*/
+  margin-top: 5.7rem;
+  text-align: center;
+}
 /*DELIVERY*/
 .flexbox#delivery img { /*third flex box -delivery*/
+  display: block;
   margin-top: 3rem;
-  margin-left: 5rem;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   border: 3px dotted green; /*border guard*/
+}
+.flexbox#delivery p { /*third flex box -delivery*/
+  margin-top: 4.0rem;
+  text-align: center;
 }
 /*Philosophy and Appointments*/
 .philandapp {
@@ -109,6 +121,6 @@ html {
 .footer {
   height: 14.5rem;
   width: 1080px;
-  background-color: pink;
+  background-color: white;
   border: 3px dotted gray;
 }
