@@ -23,26 +23,24 @@ nav {
 }
 .topnav img { /*image of glasses*/
   display: block;
-  margin-left: 2rem;
+  margin-left: 1rem;
   height: 2rem;
   width: 100px;
-  border: 3px dotted blue;
 }
 
 .TOtext { /*Tortoiseshell Optics*/
-  display: block;
   height: 4rem;
-  width: 150px;
-  margin-left: 2rem;
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 2.5rem;
   font-size: 1rem;
-  border: 3px dotted gray;
+  text-align: center;
 }
 
 .menu nav { /*Services Products Contact*/
   display: flex;
   margin-left: 330px;
   list-style-type: none;
-  justify-content: space-between;
 }
 
 .menu nav li { /*Services Products Contact*/
