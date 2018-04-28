@@ -79,19 +79,22 @@ nav {
   height: 16rem;
   width: 320px;
   background-color: white;
+
 }
 /*EXAM*/
 .flexbox#exam img { /*first flex box -Exams*/
+  width: 30%;
   margin-top: 3rem;
   margin-left: 5rem;
   background-color: white;
 }
 .flexbox#exam p { /*first flex box -Exams*/
   text-align: center;
-
+  margin-right: 45px;
 }
 /*FITTING*/
 .flexbox#fittings img { /*second flex box -fitting*/
+  width: 40%;
   display: block;
   margin-top: 3rem;
   margin-left: auto;
@@ -99,11 +102,12 @@ nav {
   background-color: white;
 }
 .flexbox#fittings p { /*second flex box -fitting*/
-  margin-top: 5.7rem;
+  margin-top: 4.3rem;
   text-align: center;
 }
 /*DELIVERY*/
 .flexbox#delivery img { /*third flex box -delivery*/
+  width: 40%;
   display: block;
   margin-top: 3rem;
   margin-left: auto;
@@ -111,47 +115,55 @@ nav {
   background-color: white;
 }
 .flexbox#delivery p { /*third flex box -delivery*/
-  margin-top: 4.0rem;
+  margin-top: 3.5rem;
   text-align: center;
 }
 /*Philosophy and Appointments*/
 .philandapp {
   display: flex;
+  flex-wrap: nowrap;
+  text-align:center;
+  margin-left: 130px;
+  margin-top: 40px;
   height: 16rem;
-  width: 1080px;
-  background-color: grey;
+  width: 700px;
   border: 1px dotted blue;
 }
+
 /*Philosophy*/
 .philosophy { /*White box*/
   height: 16rem;
-  width: 540px;
+  width: 330px;
   background-color: white;
-  border: 1px dotted red;
 }
 .philtitle{ /*title*/
   height: 2rem;
-  width: 45%;
+  width: 12rem;
   color: white;
-  text-align: center;
   background-color: cadetblue;
-  border: 1px dotted blue;
 }
+.philtitle p { /*title*/
+
+}
+
 /*Appointments*/
 
 .appointments { /*White box*/
   height: 16rem;
-  width: 540px;
+  width: 330px;
+  margin-left: 40px;
   background-color: white;
   border: 1px dotted red;
 }
 .apptitle{ /*title*/
   height: 2rem;
-  width: 45%;
+  width: 12rem;
   color: white;
-  text-align: center;
   background-color: cadetblue;
-  border: 1px dotted blue;
+}
+.apptitle p { /*title*/
+  margin-top: auto;
+
 }
 /*Footer Footer Footer*/
 .footer {
@@ -169,5 +181,12 @@ nav {
   padding-left: 50px;
   padding-top: 7rem;
   border: 1px dotted blue;
+
+}
+.footertext {
+  height: 14.5rem;
+  width: 960px;
+  background-color: white;
+  border: 1px dotted gray;
 
 }
