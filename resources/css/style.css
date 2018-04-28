@@ -23,7 +23,7 @@ nav {
 }
 .topnav img { /*image of glasses*/
   display: block;
-  margin-left: 1rem;
+  margin-left: .8rem;
   height: 2rem;
   width: 100px;
 }
@@ -125,14 +125,13 @@ nav {
   text-align:center;
   margin-left: 130px;
   margin-top: 40px;
-  height: 16rem;
+  height: 18rem;
   width: 700px;
-  border: 1px dotted blue;
 }
 
 /*Philosophy*/
 .philosophy { /*White box*/
-  height: 16rem;
+  height: 18rem;
   width: 330px;
   background-color: white;
 }
@@ -149,11 +148,10 @@ nav {
 /*Appointments*/
 
 .appointments { /*White box*/
-  height: 16rem;
+  height: 18rem;
   width: 330px;
   margin-left: 40px;
   background-color: white;
-  border: 1px dotted red;
 }
 .apptitle{ /*title*/
   height: 2rem;
@@ -162,31 +160,32 @@ nav {
   background-color: cadetblue;
 }
 .apptitle p { /*title*/
-  margin-top: auto;
 
 }
 /*Footer Footer Footer*/
 .footer {
   display: flex;
+  width: 1080px;
 }
+/*image in footer*/
 .footericon {
-  height: 14.5rem;
-  width: 960px;
+  height: 45px;
+  width: 300px;
   background-color: white;
-  border: 1px dotted gray;
 }
+/*image in footer*/
 .footericon img {
+  width: 40%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-top: 7rem;
-  border: 1px dotted blue;
 
 }
+/*text in footer*/
 .footertext {
-  height: 14.5rem;
-  width: 960px;
+  height: 45px;
+  width: 300px;
+  text-align: center;
   background-color: white;
-  border: 1px dotted gray;
 
 }
