@@ -150,7 +150,7 @@ nav {
 .appointments { /*White box*/
   height: 18rem;
   width: 330px;
-  margin-left: 40px;
+  margin-left: 5%;
   background-color: white;
 }
 .apptitle{ /*title*/
@@ -189,8 +189,13 @@ nav {
   background-color: white;
 
 }
-/*@@@@media*/
+/*@MEDIA*/
 
-@media   {
+@media only screen and (min-width: 1041px){
+
+}
+
+@media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
+  
 
 }
