@@ -190,7 +190,7 @@ nav {
 }
 /*  MEDIA QUERIES  */
 /* main display*/
-@media only screen and (max-width: 1041px){
+@media only screen and (max-width: 1041px) {
 
   nav #reactivemenu {
     display: none;
@@ -210,7 +210,7 @@ nav {
 
 
 /*this is the size of an mobile device*/
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
 
   nav #fulldisplay {
