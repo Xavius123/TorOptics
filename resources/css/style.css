@@ -260,26 +260,27 @@ nav {
   .maincontentbox {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 0px;
     width: 480px;
-    height: 600px;
-    border: 1px dotted blue;
+    height: 750px;
 
   }
+
   .flexbox {
     width: 480px;
-    height: 200px;
-    border: 1px dotted blue;
+    height: 250px;
     margin-left: -1px;
-
   }
   /*EXAM*/
   .flexbox#exam { /*first flex box -Exams*/
   }
 
   .flexbox#exam img { /*first flex box -Exams*/
-    width: 10%;
+    width: 15%;
+    padding-left: 105px;
   }
   .flexbox#exam p { /*first flex box -Exams*/
+    padding-bottom: 15px
   }
   /*FITTING*/
   .flexbox#fittings img { /*second flex box -fitting*/
@@ -292,7 +293,7 @@ nav {
     width: 20%;
   }
   .flexbox#delivery p { /*third flex box -delivery*/
-
+    padding-top: -55px;
   }
   /*Philosophy and Appointments*/
   .philandapp {
@@ -300,8 +301,8 @@ nav {
     flex-wrap: wrap;
     width: 480px;
     height: 400px;
+    margin-top: 0px;
     margin-left: 0px;
-    border: 1px dotted blue;
   }
 
   /*Philosophy*/
@@ -309,13 +310,9 @@ nav {
     width: 480px;
     height: 200px;
     margin-left: 0px;
-    border: 1px dotted blue;
   }
-  .philtitle{ /*title*/
+  .philtitle { /*title*/
     width: 480px;
-
-  }
-  .philtitle h3 { /*title*/
   }
 
   /*Appointments*/
@@ -325,12 +322,10 @@ nav {
     height: 200px;
     margin-left: 0px;
   }
-  .apptitle{ /*title*/
+  .apptitle { /*title*/
     width: 480px;
   }
-  .apptitle h3 { /*title*/
 
-  }
   /*Footer Footer Footer*/
 .footer {
     display: flex;
@@ -348,8 +343,7 @@ nav {
   /*text in footer*/
 .footertext {
   display: none;
-
-  }
+}
 
 
 }
