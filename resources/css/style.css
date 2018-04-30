@@ -206,10 +206,7 @@ nav {
 }
 /*this is the size of an mobile device*/
 @media only screen and (max-width: 480px){
-  html {
-    margin-left: 0;
-    padding-left: 0;
-  }
+
 
   nav #fulldisplay {
     display: none;
@@ -217,10 +214,11 @@ nav {
 
   /*top navigation bar*/
   .topnav {
-    margin-left: -12px;
+    margin-top: -44px;
+    margin-left: -14px;
     justify-content: flex-start;
     display: flex;
-    height: 50px;
+    height: 80px;
     width: 480px;
     color: white;
     background-color: cadetblue;
@@ -234,16 +232,12 @@ nav {
     display: none;
   }
 
-  .menu nav { /*Services Products Contact*/
-
-  }
-
   .menu nav li { /*Services Products Contact*/
-    margin-left: -45px;
+    margin-left: -145px;
   }
   /*jumbotron*/
   .jumbotron {
-    display: flex;
+    /*display: flex;*/
     height: 15rem;
     width: 480px;
     background-image: url(../images/glasses-bg.png);
@@ -252,16 +246,20 @@ nav {
 
   /*white box inside of jumbotron*/
   .jumboitem {
-    margin-left: -3px;
+    margin-top: 190px;
+    margin-left: -1px;
+    height: 50px;
     width: 480px;
-    border: 1px dotted blue;
+  }
+  .jumboitem p {
+    margin-top: 3px;
   }
   /*Area below jumbotron with 3 flex box items*/
   .maincontentbox {
     display: flex;
     flex-wrap: wrap;
     width: 480px;
-    height: 750px;
+    height: 600px;
     border: 1px dotted blue;
 
   }
@@ -269,42 +267,46 @@ nav {
     width: 480px;
     height: 200px;
     border: 1px dotted blue;
+    margin-left: -1px;
 
   }
   /*EXAM*/
+  .flexbox#exam { /*first flex box -Exams*/
+  }
+
   .flexbox#exam img { /*first flex box -Exams*/
     width: 10%;
   }
   .flexbox#exam p { /*first flex box -Exams*/
-    margin-left: 0;
-    margin-right: 0;
   }
   /*FITTING*/
   .flexbox#fittings img { /*second flex box -fitting*/
     width: 20%;
   }
   .flexbox#fittings p { /*second flex box -fitting*/
-    margin-left: 0;
-    margin-right: 0;
   }
   /*DELIVERY*/
   .flexbox#delivery img { /*third flex box -delivery*/
     width: 20%;
   }
   .flexbox#delivery p { /*third flex box -delivery*/
-    margin-left: 0;
-    margin-right: 0;
+
   }
   /*Philosophy and Appointments*/
   .philandapp {
     display: flex;
     flex-wrap: wrap;
     width: 480px;
+    height: 400px;
+    margin-left: 0px;
+    border: 1px dotted blue;
   }
 
   /*Philosophy*/
   .philosophy { /*White box*/
     width: 480px;
+    height: 200px;
+    margin-left: 0px;
     border: 1px dotted blue;
   }
   .philtitle{ /*title*/
@@ -318,7 +320,8 @@ nav {
 
   .appointments { /*White box*/
     width: 480px;
-    border: 1px dotted blue;
+    height: 200px;
+    margin-left: 0px;
   }
   .apptitle{ /*title*/
     width: 480px;
@@ -328,43 +331,23 @@ nav {
   }
   /*Footer Footer Footer*/
 .footer {
-    display: none;
+    display: flex;
+    width: 480px;
+    height: 100px;
   }
-  /*image in footer*/
-.footericon {
-    display: none;
-  }
+
   /*image in footer*/
 .footericon img {
-  display: none;
+  margin-top: 35px;
+  margin-left: 130px;
+  justify-content: center;
+  width: 60%;
   }
   /*text in footer*/
 .footertext {
   display: none;
+
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
