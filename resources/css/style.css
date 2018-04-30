@@ -206,12 +206,18 @@ nav {
 }
 /*this is the size of an mobile device*/
 @media only screen and (max-width: 480px){
+  html {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
   nav #fulldisplay {
     display: none;
   }
 
   /*top navigation bar*/
   .topnav {
+    margin-left: -12px;
     justify-content: flex-start;
     display: flex;
     height: 50px;
@@ -233,6 +239,7 @@ nav {
   }
 
   .menu nav li { /*Services Products Contact*/
+    margin-left: -45px;
   }
   /*jumbotron*/
   .jumbotron {
@@ -245,52 +252,63 @@ nav {
 
   /*white box inside of jumbotron*/
   .jumboitem {
-
+    margin-left: -3px;
+    width: 480px;
+    border: 1px dotted blue;
   }
   /*Area below jumbotron with 3 flex box items*/
   .maincontentbox {
+    display: flex;
+    flex-wrap: wrap;
     width: 480px;
-    height: 500px;
+    height: 750px;
+    border: 1px dotted blue;
 
   }
   .flexbox {
-    border: 1px dotted blue;
     width: 480px;
-    height: 560px;
-
+    height: 200px;
+    border: 1px dotted blue;
 
   }
   /*EXAM*/
   .flexbox#exam img { /*first flex box -Exams*/
-
+    width: 10%;
   }
   .flexbox#exam p { /*first flex box -Exams*/
-
+    margin-left: 0;
+    margin-right: 0;
   }
   /*FITTING*/
   .flexbox#fittings img { /*second flex box -fitting*/
-
+    width: 20%;
   }
   .flexbox#fittings p { /*second flex box -fitting*/
-
+    margin-left: 0;
+    margin-right: 0;
   }
   /*DELIVERY*/
   .flexbox#delivery img { /*third flex box -delivery*/
-
+    width: 20%;
   }
   .flexbox#delivery p { /*third flex box -delivery*/
-
+    margin-left: 0;
+    margin-right: 0;
   }
   /*Philosophy and Appointments*/
   .philandapp {
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
   }
 
   /*Philosophy*/
   .philosophy { /*White box*/
-
+    width: 480px;
+    border: 1px dotted blue;
   }
   .philtitle{ /*title*/
+    width: 480px;
 
   }
   .philtitle h3 { /*title*/
@@ -299,31 +317,30 @@ nav {
   /*Appointments*/
 
   .appointments { /*White box*/
-
+    width: 480px;
+    border: 1px dotted blue;
   }
   .apptitle{ /*title*/
-
+    width: 480px;
   }
   .apptitle h3 { /*title*/
 
   }
   /*Footer Footer Footer*/
-  .footer {
-
+.footer {
+    display: none;
   }
   /*image in footer*/
-  .footericon {
-
+.footericon {
+    display: none;
   }
   /*image in footer*/
-  .footericon img {
-
-
+.footericon img {
+  display: none;
   }
   /*text in footer*/
-  .footertext {
-
-
+.footertext {
+  display: none;
   }
 
 
