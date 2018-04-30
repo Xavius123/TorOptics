@@ -216,10 +216,10 @@ nav {
 
   /*top navigation bar*/
   .topnav {
+    display: flex;
     margin-top: -44px;
     margin-left: -14px;
     justify-content: flex-start;
-    display: flex;
     height: 80px;
     width: 480px;
     color: white;
