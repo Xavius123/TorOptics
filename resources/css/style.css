@@ -190,7 +190,7 @@ nav {
 }
 /*  MEDIA QUERIES  */
 /* main display*/
-@media only screen and (min-width: 1041px){
+@media only screen and (max-width: 1041px){
 
   nav #reactivemenu {
     display: none;
@@ -199,13 +199,16 @@ nav {
 
 }
 /*this is the size of an ipad*/
-@media only screen and (max-width: 768px) and (min-width: 1041px) {
+@media only screen and (max-width: 768px) and (min-width: 480px) /*and (min-width: 1041px)*/ {
 
-  nav #fulldisplay {
+  nav #reactivemenu {
     display: none;
+
   }
 
 }
+
+
 /*this is the size of an mobile device*/
 @media only screen and (max-width: 480px){
 
@@ -249,7 +252,7 @@ nav {
   /*white box inside of jumbotron*/
   .jumboitem {
     margin-top: 190px;
-    margin-left: -1px;
+    margin-left: 0px;
     height: 50px;
     width: 480px;
   }
