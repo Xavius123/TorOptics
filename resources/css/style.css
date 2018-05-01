@@ -189,26 +189,6 @@ nav {
 
 }
 /*  MEDIA QUERIES  */
-/* main display*/
-@media only screen and (max-width: 1041px) {
-
-  nav #reactivemenu {
-    display: none;
-
-  }
-
-}
-/*this is the size of an ipad*/
-@media only screen and (max-width: 768px) and (min-width: 480px) /*and (min-width: 1041px)*/ {
-
-  nav #reactivemenu {
-    display: none;
-
-  }
-
-}
-
-
 /*this is the size of an mobile device*/
 @media only screen and (max-width: 480px) {
 
@@ -347,6 +327,29 @@ nav {
 .footertext {
   display: none;
 }
+}
+/*this is the size of an ipad*/
+@media only screen and (min-width: 481px) and (max-width: 768px) /*and (min-width: 1041px)*/ {
+
+  nav #fulldisplay {
+    display: none;
+  }
+}
 
 
+/* not sure what this size is*/
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+
+  nav #reactivemenu {
+    display: none;
+  }
+}
+
+
+/* not sure what this size is*/
+@media only screen and (min-width: 1001px) {
+
+  nav #reactivemenu {
+    display: none;
+  }
 }
