@@ -196,10 +196,15 @@ nav {
   nav #fulldisplay {
     display: none;
   }
+  nav #reactivemenu {
+      border: 1px dotted blue;
+  }
+}
 
   /*top navigation bar*/
   .topnav {
     display: flex;
+    position: fixed;
     margin-top: -44px;
     margin-left: -14px;
     justify-content: flex-start;
