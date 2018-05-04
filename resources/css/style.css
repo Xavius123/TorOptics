@@ -196,10 +196,6 @@ nav {
   nav #fulldisplay {
     display: none;
   }
-  nav #reactivemenu {
-      border: 1px dotted blue;
-  }
-}
 
   /*top navigation bar*/
   .topnav {
